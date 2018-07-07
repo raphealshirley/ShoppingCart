@@ -25,6 +25,11 @@ namespace ShoppingCart
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+            //This is for render knockout 
+            //bundles.Add(new ScriptBundle("~/bundles/knockout").Include("~/Scripts/knockout-*"));
+
+            //BundleTable.EnableOptimizations = false;
+            //bundles.UseCdn = true;
         }
     }
 }
